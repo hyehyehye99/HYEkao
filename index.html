@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to HYEkao talk! </title>
+</head>
+
+<body>
+
+    <div class="status-bar">
+        <div class="status-bar__left">
+            <span id="clock">12:27</span>
+            <span class="material-icons-round">near_me</span>
+        </div>
+        <div class="status-bar__right">
+            <span class="material-icons-round">signal_cellular_alt</span>
+            <span class="material-icons-round">wifi</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+        </div>
+    </div>  
+
+    <div class="warp">
+
+        <header class="welcome-header">
+            <h1>Hyekao</h1>
+            <p>혜카오톡에 오신 것을 환영합니다!</p>
+        </header>
+
+        <form action="friends.html" method="get" id="login-form">
+
+            <div class="login-form__input">
+                <input name="username" type="text" placeholder="혜카오계정 (이메일 또는 전화번호)">
+                <input name="password" type="password" placeholder="비밀번호">
+            </div>
+            
+            
+            <div class="check">
+                <input type="checkbox" id="save-login" name="save-login">
+                <label for="save-login">로그인 상태 유지</label>
+            </div>
+
+            
+            <div class="login-form__submit">
+                <input name="login" type="submit" value="로그인">
+
+                <div class="or">
+                    <div class="line"></div>
+                    <span>또는</span>
+                    <div class="line"></div>
+                </div>
+
+                <input name="login" type="submit" value="QR코드 로그인">
+
+            </div>
+    
+        </form>
+
+        <div class="login-more">
+            <div class="login-more__sign">
+                <a href="#">회원가입</a>
+            </div>
+        
+            <div class="login-more__find">
+                <a href="#">카카오계정</a>
+                <div class="squre"></div>
+                <a href="#">비밀번호찾기</a>
+            </div>
+        </div>
+
+
+
+    </div> 
+
+   
+
+
+
+
+
+    
+    <script src="js/clock.js"></script>
+    <script src="https://kit.fontawesome.com/6ca835637b.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

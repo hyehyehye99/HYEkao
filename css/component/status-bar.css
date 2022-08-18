@@ -1,0 +1,27 @@
+
+.status-bar{
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status-bar__left{
+    display: flex;
+    align-items: center;
+    font-size:15px;
+}
+
+.status-bar__left span:last-child{
+    font-size:21px;
+    margin-left:2px;
+}
+
+.status-bar__right{
+    display: flex;
+    align-items: center;
+}
+
+.status-bar__right span{
+    margin-right: 4px;
+}
