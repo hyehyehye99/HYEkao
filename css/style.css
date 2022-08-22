@@ -1,13 +1,54 @@
 
 @import "reset.css";
+@import "screen-size.css";
 
 /*Components*/
 @import "component/status-bar.css";
+@import "component/title-bar.css";
+@import "component/ad.css";
+@import "component/user-component.css";
+@import "component/nav-bar.css";
+
 
 /*Screens*/
 @import "screen/login.css";
+@import "screen/friends.css";
+@import "screen/view.css";
+@import "screen/shopping.css";
 
 
 body{
     font-family: 'IBM Plex Sans KR', sans-serif;
+    color:#2f363e;
+    height:100em
+}
+
+.warp{
+    margin:0px 25px;
+}
+
+.wallet-warp{
+    background-color: #FEE500;
+    width: 100%;
+    height: 180px;
+    margin-top:100px;
+    padding:20px;
+    box-sizing: border-box;
+}
+
+.wallet-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wallet-column{
+    display: flex;
+    align-items: center;
+}
+
+.wallet-column span:first-child{
+    font-size: 15px;
+
 }

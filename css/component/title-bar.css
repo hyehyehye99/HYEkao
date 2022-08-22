@@ -1,0 +1,47 @@
+.title-bar-warp{
+    position: fixed;
+    top:30px;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+    
+    
+    
+    
+    
+}
+
+.title-bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px;
+    background-color: white;
+    
+   
+}
+
+.title-bar__title h1{
+    font-size: 25px;
+    font-weight: 700;
+    background-color: white;
+}
+
+.title-bar__icons{
+    display: flex;
+    align-items: center;
+    
+}
+
+.title-bar__icons span{
+   font-size:25px;
+   margin-right:15px;
+}
+
+.title-bar__icons i{
+    font-size:20px;
+    margin-right:15px;
+}
+
+.title-bar__icons span:last-child{
+    margin-right: 0px;
+}

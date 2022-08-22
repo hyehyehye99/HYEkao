@@ -1,10 +1,25 @@
+.status-bar__warp{
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 1;
+   
+    
+}
 
 .status-bar{
-    margin: 15px;
+    background-color: white;
+    padding: 3px 10px;
+    
     display: flex;
     justify-content: space-between;
-    align-items: center;
+
+    
+    
+    
 }
+
+
 
 .status-bar__left{
     display: flex;

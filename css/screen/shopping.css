@@ -1,0 +1,254 @@
+.shopping-bar{
+    margin-top:100px;
+    display: flex;
+    justify-content: space-between;
+    padding:20px 40px; 
+    border-top: 1px solid #dbdbdb;
+}
+
+.shopping-bar__btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shopping-bar__btn span:first-child{
+    font-size: 27px;
+}
+
+.shopping-bar__btn span:nth-child(2){
+    margin-top: 4px;
+    font-size:13px;
+}
+
+.shopping-ad{
+    width: 100%;
+    height: 150px;
+    background-color: #dbdbdb;
+}
+
+.shopping-me__info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:20px 0px;
+}
+
+.shopping-me__info img{
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    margin-right: 7px;
+}
+
+.shopping-me__info :nth-child(2){
+    font-weight: 500;
+}
+
+.shopping-me__order{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.order-list span:last-child{
+    color:#4886d7;
+    font-weight: 500;
+    margin: 0px 6px;
+}
+
+.order-column{
+    width: 2px;
+    height: 20px;
+    margin-right: 6px;
+    background-color: #f2f2f2;
+}
+
+.shopping-me{
+    padding : 0px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shopping-box{
+    padding: 25px 25px;
+    border-top: 10px solid #f0f0f0;
+}
+
+.shopping-box__title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shopping-box__all{
+    display: flex;
+    align-items: center;
+}
+
+.shopping-box__name{
+    font-size: 20px;
+    font-weight:500;
+}
+
+.shopping-box__all{
+    color: #808080;
+    font-size: 15px;
+}
+
+.shopping-box__content{
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.shopping-img{
+    display: flex;
+   
+}
+.shopping-img-paci{
+    width: auto;
+    color:white;
+    background-color: #4580cf;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 7px;
+    border-radius: 5px;
+    position: absolute;
+    margin:10px;
+
+}
+
+.shopping-img-section{
+    width: 210px;
+    height: 150px;
+    background-color: #808080;
+    border-radius: 15px;
+    position: relative;
+}
+
+.shopping-img-section:nth-child(2n-1){
+    margin-right: 10px;
+
+}
+.shopping-text{
+    padding:5px;
+    display: inline-block;
+    width: 180px;
+    font-size: 14px;
+    line-height: 1.2;
+}
+.shopping-price{
+    margin:5px 0px;
+    font-size: 15px;
+}
+
+.shopping-price span:nth-child(2){
+    font-weight: 600;
+}
+
+.shopping-conent-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.shopping-warp{
+    display: flex;
+    flex-direction: column;
+}
+
+.shopping-btn button{
+    background-color: white;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    width: 50px;
+    color:#808080;
+    display: flex;
+    justify-content: center;
+    margin: 0px 10px;
+}
+
+.shopping-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.shopping-btn span{
+    color: #808080;
+}
+
+.shopping-btn span:nth-child(2){
+    color:rgb(60, 60, 60);
+    margin-right: 5px;
+}
+
+.shopping-box__search-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    background-color: #f0f0f0;
+    
+}
+
+.shopping-box__search-box input{
+    border: 0px;
+    padding: 5px;
+    background-color: transparent;
+    width: inherit;
+}
+
+.shopping-box__search-box form{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+.shopping-box__search-box span{
+    color: #4580cf;
+}
+
+.search-hashtags{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 13px;
+}
+
+.hashtags-title{
+    color: #808080;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.hashtags-title span:last-child{
+    font-size:16px;
+    margin:0px 4px;
+}
+
+.hashtags{
+    display: flex;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+.hashtags span{
+    border: 1px solid #4580cf;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 5px;
+    font-size: 13px;
+    color: #4580cf;
+}
+
+.hashtags span:hover{
+    background-color: #4580cf;
+    color: white;
+}

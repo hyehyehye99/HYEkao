@@ -1,0 +1,46 @@
+.nav{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background-color:#f9f9fa ;
+    padding: 20px 50px;
+    box-sizing:border-box;
+    border-top: 1px solid rgba(121,121,121,0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav_btn span{
+    font-size: 30px;
+}
+
+.nav_link{
+    position: relative;
+}
+
+.chat-bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ec6c3d;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 25px;
+    left:20px;
+    
+}
+
+.chat-bubble span{
+    font-size: 13px;
+}
+
+.more-alert{
+    position: absolute;
+    bottom:30px;
+    left: 27px;
+}

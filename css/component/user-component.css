@@ -1,0 +1,136 @@
+.user-component{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    
+}
+
+.user-component__img{
+    width: 65px;
+    height: 65px;
+    border-radius: 35%;
+}
+
+.user-component__text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.user-component__name{
+    margin-bottom: 6px;
+}
+
+.user-component__subtitle{
+    font-size: 13px;
+    opacity: 60%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.user-component__info{
+    display: flex;
+    align-items: center;
+}
+
+.user-component__column{
+    display: flex;
+    align-items: flex-end;
+    border-radius: 30px;
+    padding: 3px 10px;
+    flex-direction: column;
+}
+
+.user-component__column-date{
+    font-size: 12px;
+    opacity: 60%;
+    margin-right: 3px;
+}
+
+.music-box span:last-child{
+    font-size: 20px;
+    color: #5cc952;
+}
+
+.music-box{
+    display: flex;
+    border: 1px solid #5cc952;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px ;
+    opacity: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 5px;
+    
+}
+
+.user-component__img-sm{
+    width: 50px;
+    height: 50px;
+}
+
+.birthday-box span:last-child{
+    color: #e37274;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.birthday-box{
+    border: 1px solid #e37274;
+    flex-direction: row;
+    align-items: center;
+    font-size:12px;
+    opacity: 70%;
+}
+
+.more{
+    opacity: 40%;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size:13px;
+}
+
+.more span:first-child{
+    margin-right: -4px;
+}
+
+.user-component__group{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    position: relative;
+    
+    
+}
+
+.user-component__group span:last-child{
+    font-size: 15px;
+    position: absolute;
+    left:35px;
+    top: 1px;
+    
+}
+
+.message-bubble{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #ed6d3d;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.none{
+    opacity: 0;
+}
