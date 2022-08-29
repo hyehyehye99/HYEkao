@@ -74,6 +74,7 @@
 .shopping-box{
     padding: 25px 25px;
     border-top: 10px solid #f0f0f0;
+    box-sizing: border-box;
 }
 
 .shopping-box__title{
@@ -105,6 +106,7 @@
 
 .shopping-img{
     display: flex;
+    box-sizing: border-box;
    
 }
 .shopping-img-paci{
@@ -117,12 +119,13 @@
     border-radius: 5px;
     position: absolute;
     margin:10px;
+    box-sizing: border-box;
 
 }
 
 .shopping-img-section{
-    width: 210px;
-    height: 150px;
+    width: 150px;
+    height: 110px;
     background-color: #808080;
     border-radius: 15px;
     position: relative;
